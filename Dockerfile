@@ -12,4 +12,4 @@ RUN add-apt-repository ppa:ethereum/ethereum
 RUN apt-get update
 RUN apt-get install -y cpp-ethereum
 
-ENTRYPOINT ["/usr/local/bin/eth"]
+ENTRYPOINT ["/usr/bin/eth"]
